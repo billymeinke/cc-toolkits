@@ -1,12 +1,12 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: cake.png
+date: 2014-07-18
+img: airwashington_drawing.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis lacus maximus diam finibus imperdiet. Duis nec dolor sit amet tellus ultricies porta. Cras mattis mauris molestie odio convallis, eu laoreet libero condimentum. Quisque porttitor sapien non bibendum aliquet. Fusce venenatis, tellus sed mattis vehicula, arcu lacus aliquet ante, a volutpat nunc tortor a massa. Ut nunc ligula, scelerisque nec eros at, ultrices suscipit augue. 
 
 ---
