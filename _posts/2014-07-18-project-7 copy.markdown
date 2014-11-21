@@ -2,7 +2,7 @@
 layout: default
 modal-id: 7
 date: 2014-07-18
-img: airwashington_drawing.png
+img: stem_drawing.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
