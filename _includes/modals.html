@@ -12,9 +12,11 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
+                            <!-- <h2>{{ post.title }}</h2> -->
+                            <h2>{{ post.project-name }}</h2> 
+                            <hr>
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <h3>{{ post.institution }}</h3>
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
