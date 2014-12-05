@@ -1,4 +1,12 @@
-Freelancer Jekyll theme
+# Read me
+
+This is a Jekyll-based site supporting a set of profiles on standout projects in the U.S. DOL TAACCCT workforce training program, supporting by OPEN.
+
+For more information about OPEN and our role in the TAACCCT program, please see https://www.open4us.org.
+
+Additional information about the framework of this site, below.
+
+
 =========================
 
 Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/)
