@@ -1,4 +1,4 @@
-# Read me
+# This site
 
 This is a Jekyll-based site supporting a set of profiles on standout projects in the U.S. DOL TAACCCT workforce training program, supporting by OPEN.
 
