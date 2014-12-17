@@ -1,0 +1,19 @@
+<!-- section videos -->
+
+    <section id="videos">
+        <div class="container">
+            <div class="row featurette">
+
+  {% if page.videoembed-1 %}
+  <div class="..."
+          <div class="col-md-7">
+          <h2 class="featurette-heading">{{page.videotitle-1}}</h2>
+          <p class="lead">{{page.videodescription-1}}<br>
+            {{videolicense-1}}
+          </p>
+          <a href="http://resources.creativecommons.org"><button type="button" class="btn btn-primary">See more</button></a>
+          <br>
+        </div>
+</div>
+  {% endif %}
+</section>

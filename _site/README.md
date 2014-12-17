@@ -1,4 +1,8 @@
-Freelancer Jekyll theme
+This site is loosely based on the theme below. It is meant to demo the migration and translation of the CC Toolkits site onto Github, into Jekyll, and using the Bootstrap framework.
+
+See below for more.
+
+
 =========================
 
 Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/)

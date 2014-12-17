@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # This site
 
 This is a Jekyll-based site supporting a set of profiles on standout projects in the U.S. DOL TAACCCT workforce training program, supporting by OPEN.
@@ -5,6 +6,11 @@ This is a Jekyll-based site supporting a set of profiles on standout projects in
 For more information about OPEN and our role in the TAACCCT program, please see http://www.open4us.org.
 
 Additional information about the framework of this site, below.
+=======
+This site is loosely based on the theme below. It is meant to demo the migration and translation of the CC Toolkits site onto Github, into Jekyll, and using the Bootstrap framework.
+
+See below for more.
+>>>>>>> Stashed changes
 
 
 =========================

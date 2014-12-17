@@ -1,0 +1,24 @@
+<!-- section videos -->
+
+    <section id="videos">
+        <div class="container">
+            <div class="row featurette">
+
+  {% if page.videoembed-1 %}
+          <div class="col-md-7">
+          <h2 class="featurette-heading">{{page.videotitle-1}}</h2>
+          <p class="lead">{{page.videodescription-1}}<br>
+            {{page.videolicense-1}}
+          </p>
+          <br>
+          <a href="http://resources.creativecommons.org"><button type="button" class="btn btn-primary">See more</button></a>
+          <br>
+        </div>
+</div>
+  {% endif %}
+  <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/500px_collage.png" alt="Generic placeholder image">
+        </div>
+      </div>
+</div>
+</section>
