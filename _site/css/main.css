@@ -161,12 +161,62 @@ section.collaborate {
 
 section.videos {
     color:#fff;
-    background:#2A4F92
+    background:#2A4F92;
+}
+
+section.videos-education {
+    color:#fff;
+    background:#7A2999;
+}
+
+section.videos-science {
+    color:#fff;
+    background:#74960C;
+}
+
+section.videos-creative-industries {
+    color:#fff;
+    background:#B59F11;
+}
+
+section.videos-government {
+    color:#fff;
+    background:#B44A95;
+}
+
+section.videos-culture {
+    color:#fff;
+    background:#DC891D;
 }
 
 section.handouts {
     color:#fff;
     background:#2A4F92;
+}
+
+section.handouts-education {
+    color:#fff;
+    background:#7A2999;
+}
+
+section.handouts-science {
+    color:#fff;
+    background:#74960C;
+}
+
+section.handouts-creative-industries {
+    color:#fff;
+    background:#B59F11;
+}
+
+section.handouts-government {
+    color:#fff;
+    background:#B44A95;
+}
+
+section.handouts-culture {
+    color:#fff;
+    background:#DC891D;
 }
 
 @media(max-width:767px) {
