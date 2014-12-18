@@ -1,5 +1,7 @@
 The CC Toolkits project is built with HTML and Markdown pages, strung together with a static website generator called Jekyll, and hosted on the social coding website Github. The site has been set up to make it simple for anyone to suggest updates and edit to the site's pages (mostly consisting of toolkits), add new pages/toolkits to the site, or to clone/fork the site to make a CC affiliate-focused toolkit site.
 
+![Imgur](http://i.imgur.com/sLOIBgCl.png)
+
 Content (images, videos, other media) on the website is licensed as marked, and is otherwise licensed under a CC BY 4.0 International License. See http://creativecommons.org/licenses/by/4.0/ for more information. The site is based on the Freelancer Theme by Jerome Lachaud: https://github.com/jeromelachaud/freelancer-theme, which utilizes the Bootstrap framework (http://getbootstrap.com/), which is licensed under an MIT license: https://github.com/twbs/bootstrap/blob/master/LICENSE .
 
 # Painless CC Toolkit Making
@@ -21,18 +23,18 @@ The CC Toolkits project files can be edited in a number of ways. Suggestions and
 		/toolkit.html
 		/page.html
 		...
-	/_includes/ <-- the common parts of the pages are in here
-		/head.html
-		/submenu.html
-		/footer-toolkit.html
+		/_includes/ <-- the common parts of the pages are in here
+			/head.html
+			/submenu.html
+			/footer-toolkit.html
+			...
+		/basics/index.html <-- the 'Basics of CC' toolkit page, in English
+		/basics-de/index.html <-- the 'Basics of CC' toolkit page, in German (Deutsch)
+		/culture/index.html <-- The 'CC and Culture' toolkit page, in English
+		/science/index.html <-- The 'Science and CC' toolkit page, in English
 		...
-	/basics/index.html <-- the 'Basics of CC' toolkit page, in English
-	/basics-de/index.html <-- the 'Basics of CC' toolkit page, in German (Deutsch)
-	/culture/index.html <-- The 'CC and Culture' toolkit page, in English
-	/science/index.html <-- The 'Science and CC' toolkit page, in English
-	...
-	/collaborate/index.html <-- The collaborate page is here
-	...
+		/collaborate/index.html <-- The collaborate page is here
+		...
 
 
 ### To add a translation of a toolkit page:
@@ -109,4 +111,11 @@ Since this template calls for multiple files (head.html, header.html, etc), tran
 - map.html
 - footer.html
 
-Name your translated landing page sections to reflect the language you translated into (ie header-de.html).
+Name your translated landing page sections to reflect the language you translated into (ie header-de.html) and place them in the /cc-toolkits/_includes/ folder so that Jekyll knows where to find them when called.
+
+Lastly, go back to the ../cc-toolkits/index.html file you were looking at, and make a copy of it when the appropriate filename for the language being translated to (ie ../cc-toolkits/index-de.html. Now we will have a translation of the landing page, using the new layout (template) that calls for your translated sections of the homepage (header-de.html, grid-de.html, etc).
+
+## Not sure where to go next?
+###Reply to this issue on Github, and we'll get back to you soonly:
+
+<insert issue thread link>
