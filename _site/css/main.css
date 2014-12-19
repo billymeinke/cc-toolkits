@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: ##853192;
+    color: ##9628c6;
 }
 
 h1,
@@ -161,27 +161,27 @@ section.collaborate {
 
 section.videos {
     color:#fff;
-    background:#2A4F92;
+    background:#214184;
 }
 
 section.videos-education {
     color:#fff;
-    background:#7A2999;
+    background:#662978;
 }
 
 section.videos-science {
     color:#fff;
-    background:#74960C;
+    background:#98c807;
 }
 
 section.videos-creative-industries {
     color:#fff;
-    background:#B59F11;
+    background:#edd812;
 }
 
 section.videos-government {
     color:#fff;
-    background:#B44A95;
+    background:#7b1b53;
 }
 
 section.videos-culture {
@@ -191,27 +191,27 @@ section.videos-culture {
 
 section.handouts {
     color:#fff;
-    background:#2A4F92;
+    background:#214184;
 }
 
 section.handouts-education {
     color:#fff;
-    background:#7A2999;
+    background:#662978;
 }
 
 section.handouts-science {
     color:#fff;
-    background:#74960C;
+    background:#98c807;
 }
 
 section.handouts-creative-industries {
     color:#fff;
-    background:#B59F11;
+    background:#edd812;
 }
 
 section.handouts-government {
     color:#fff;
-    background:#B44A95;
+    background:#7b1b53;
 }
 
 section.handouts-culture {
