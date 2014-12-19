@@ -13,7 +13,9 @@ p {
 }
 
 p.small {
-    font-size: 16px;
+    font-size: 12px;
+    color:#636466;
+
 }
 
 a,
@@ -146,13 +148,13 @@ section.grid {
 
 section.map {
     color: #000;
-    background:#b44a95 url(../img/world-01.png)no-repeat top center;
+    background:#b62b6e url(../img/world-01.png)no-repeat top center;
 	/*height:280px;*/
 }
 
 section.archive {
     color:#fff;
-    background:#2A4F92
+    background:#214184
 }
 
 section.collaborate {
