@@ -1,5 +1,9 @@
 The CC Toolkits project is built with HTML and Markdown pages, strung together with a static website generator called Jekyll, and hosted on the social coding website Github. The site has been set up to make it simple for anyone to suggest updates and edit to the site's pages (mostly consisting of toolkits), add new pages/toolkits to the site, or to clone/fork the site to make a CC affiliate-focused toolkit site.
 
+##Remix this
+
+Only basic HTML knowledge is needed to help with the CC toolkits project. For people that have web design or development skills, you're encouraged to make pull requests with your styling and functionality changes. And if your changes aren't rolled into the main CC Toolkits site, you can always use them on [your own fork](https://help.github.com/articles/fork-a-repo/).
+
 ![Imgur](http://i.imgur.com/sLOIBgCl.png)
 
 Content (images, videos, other media) on the website is licensed as marked, and is otherwise licensed under a CC BY 4.0 International License. See http://creativecommons.org/licenses/by/4.0/ for more information. The site is based on the [Freelancer Theme](https://github.com/jeromelachaud/freelancer-theme) by Jerome Lachaud, which utilizes the [Bootstrap framework](http://getbootstrap.com/), licensed under an [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE) .
@@ -8,9 +12,14 @@ Content (images, videos, other media) on the website is licensed as marked, and 
 
 ## Overview:
 
-The CC Toolkits project files can be edited in a number of ways. Suggestions and edits for the pages can be filed as issues here:
+The CC Toolkits project files can be edited in a number of ways. When you find a bug or issue with the site, you're welcome to make edits and submit them as pull requests. Hi-fives to those who find an issue and try to fix it themselves :)
 
-[File an issue here]<-- get link when ready
+[Submit a pull request here](#)<-- get link when ready
+
+###Nontechnical help
+For those with fewer tech skills, you're encouraged to submit suggestions and edits to the pages as issues in the repo. Keep in mind that issues that are submitted without a fix (pull request) included will be addressed as time allows:
+
+[File an issue here](#)<-- get link when ready
 
 <insert options for editing, forking>
 
@@ -47,6 +56,12 @@ If you want to brush up on your HTML, it may be useful to download and use Mozil
 ![](http://i.imgur.com/xAzJg28l.png)
 
 ![Imgur](http://i.imgur.com/KuEw3c5l.png)
+
+### To fork or not to fork?
+
+If you wish to only make edits to existing toolkit pages, you can do it right in the browser here on Github. Navigate to the index.html file for a toolkit topic and click 'edit'. You can make changes and submit them as suggestions straight away.
+
+![Imgur](http://i.imgur.com/Z0wmmIBl.png)
 
 ### To add a translation of a toolkit page:
 
