@@ -2,7 +2,7 @@ The CC Toolkits project is built with HTML and Markdown pages, strung together w
 
 ![Imgur](http://i.imgur.com/sLOIBgCl.png)
 
-Content (images, videos, other media) on the website is licensed as marked, and is otherwise licensed under a CC BY 4.0 International License. See http://creativecommons.org/licenses/by/4.0/ for more information. The site is based on the Freelancer Theme by Jerome Lachaud: https://github.com/jeromelachaud/freelancer-theme, which utilizes the Bootstrap framework (http://getbootstrap.com/), which is licensed under an MIT license: https://github.com/twbs/bootstrap/blob/master/LICENSE .
+Content (images, videos, other media) on the website is licensed as marked, and is otherwise licensed under a CC BY 4.0 International License. See http://creativecommons.org/licenses/by/4.0/ for more information. The site is based on the [Freelancer Theme](https://github.com/jeromelachaud/freelancer-theme) by Jerome Lachaud, which utilizes the [Bootstrap framework](http://getbootstrap.com/), licensed under an [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE) .
 
 # Painless CC Toolkit Making
 
@@ -10,7 +10,7 @@ Content (images, videos, other media) on the website is licensed as marked, and 
 
 The CC Toolkits project files can be edited in a number of ways. Suggestions and edits for the pages can be filed as issues here:
 
-<insert repo issue page>
+[File an issue here]<-- get link when ready
 
 <insert options for editing, forking>
 
@@ -19,10 +19,10 @@ The CC Toolkits project files can be edited in a number of ways. Suggestions and
 	/cc-toolkits/
 		/img/ <-- the image files are in here
 		/layouts/ <-- the page templates are in here
-		/default.html
-		/toolkit.html
-		/page.html
-		...
+			/default.html
+			/toolkit.html
+			/page.html
+			...
 		/_includes/ <-- the common parts of the pages are in here
 			/head.html
 			/submenu.html
@@ -36,6 +36,17 @@ The CC Toolkits project files can be edited in a number of ways. Suggestions and
 		/collaborate/index.html <-- The collaborate page is here
 		...
 
+A 'toolkit' is just an HTML page. You can view the source of any of the toolkits, or any of the pages on the CC Toolkits site by navigating to the index.html file inside of a topic folder. To see more about how pages in the CC Toolkits site are arranged, see this [section of a guide on Jekyll](http://jekyllrb.com/docs/pages/#named-html-files).
+
+If you were to browse to an .index.html file, or right-clicked and viewed the source of a toolkit page you are looking at, you will notice that the objects on the page (sections, divs, etc) are just HTML with some CSS for styling.
+
+![](http://i.imgur.com/BBqoxhsl.png)
+
+If you want to brush up on your HTML, it may be useful to download and use Mozillas [X-ray Goggles](https://goggles.webmaker.org/) browser plugin. When activated, you can see how the page sections, divs, heading levels and so on are organized. You can even play with editing a toolkit page in the browser at first, if you're unsure about jumping right in to the real project.
+
+![](http://i.imgur.com/xAzJg28l.png)
+
+![Imgur](http://i.imgur.com/KuEw3c5l.png)
 
 ### To add a translation of a toolkit page:
 
@@ -52,12 +63,17 @@ The CC Toolkits project files can be edited in a number of ways. Suggestions and
 
 ### Translating the menu, footer
 
-You will also want to replace the common parts of the page (header, footer, etc) with a translated version too? To translate the page menu and footer, browse to these files:
+You will also want to replace the common parts of the page (header, footer, etc) with a translated version too. The header and footer may have already been translated into your desired language. This will be obvious if you see files in the _includes folder that have language extensions (ex. "de") in the file name:
+
+	/cc-toolkits/_includes/submenu-de.html
+	/cc-toolkits/_includes/footer-toolkit-de.html
+
+If translated headers and footers do not exist, you can make them by browsing to these files:
 
 	/cc-toolkits/_includes/submenu.html <-- the toolkit template menu (videos, case studies, etc)
 	/cc-toolkits/_includes/footer-toolkit.html <-- the toolkit template footer (links, license, etc)
 
-Edit those files to include translated text/items.
+Make a copy of the header and footer files you need, change their file names to reference the language translation, then edit them to include the translated text/items.
 
 ### A couple more things
 
