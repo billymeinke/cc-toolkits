@@ -59,11 +59,17 @@ If you want to brush up on your HTML, it may be useful to download and use Mozil
 
 ### To fork or not to fork?
 
-If you wish to only make edits to existing toolkit pages, you can do it right in the browser here on Github. Navigate to the index.html file for a toolkit topic and click 'edit'. You can make changes and submit them as suggestions straight away.
+If you wish to only make edits to existing toolkit pages, you can do it in the browser right here on Github. Navigate to the index.html file for a toolkit topic and click 'edit'. You can make changes and submit them as suggestions straight away.
 
 ![Imgur](http://i.imgur.com/Z0wmmIBl.png)
 
-### To add a translation of a toolkit page:
+If you want to make pull requests and/or run your own locally-hosted version of the CC Toolkits site, it's only a few more steps to get there. You want to install Jekyll to your local computer, so here's a [handy guide for doing that](http://jekyllrb.com/docs/installation/#install-with-rubygems). Once you have Jekyll running locally, you can edit the HTML and Markdown files of the site with your preferred text editor, and preview changes in the browser before submitting them to the main site.
+
+![Imgur](http://i.imgur.com/WcCQKXm.png)
+
+After you've forked the project and are running in locally, it's simple to manage your files and create your own toolkits site that is hosted on Github Pages for free.
+
+### To make a translation of a toolkit page:
 
 - Browse to an existing toolkit folder (ie /cc-toolkits/basics/)
 - Make a copy of the folder, and place it next to the original
