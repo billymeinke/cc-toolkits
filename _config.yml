@@ -9,3 +9,6 @@ baseurl: "/open-profiles"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Plugins
+gems: ['jekyll-less']
