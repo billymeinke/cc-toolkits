@@ -31,6 +31,23 @@
   background: @green-cc;
 }
 
+// Based on a version from "the man": https://gist.github.com/brandonb927/3874012
+.background-size-retina( @url, @size ) {
+  @filename  : ~`/(.*)\.(jpg|jpeg|png|gif)/.exec(@{url})[1]`;
+  @extension : ~`/(.*)\.(jpg|jpeg|png|gif)/.exec(@{url})[2]`;
+  background-image: ~`"url(@{filename}.@{extension})"`;
+  @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) {
+      background-image: ~`"url(@{filename}@2X.@{extension})"`;
+      background-repeat: no-repeat;
+  }
+  background-size: @size;
+}
 /**
  * General, Typography & Resets
  *
