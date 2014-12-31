@@ -35,3 +35,17 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// Add & remove Slide In CSS3 animations for modal
+$('.modal').on('shown.bs.modal', function() {
+  $(this).removeClass('animated fadeInLeftBig');
+  $(this).addClass('animated fadeInRightBig');
+
+  // Start carousel
+  $(this).find('.carousel').carousel();
+});
+$('.modal').on('hide.bs.modal', function(e) {
+  $(this).removeClass('animated fadeInRightBig');
+  $(this).addClass('animated fadeInLeftBig');
+  setTimeout(2000);
+});
