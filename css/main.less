@@ -85,10 +85,152 @@
 }
 
 /**
+ *  Animations
+ *
+ *  Courtesy of: http://daneden.github.io/animate.css/
+ *
+ */
+.animated {
+ -webkit-animation-duration: 1s;
+ animation-duration: 1s;
+ -webkit-animation-fill-mode: both;
+ animation-fill-mode: both;
+}
+
+.animated.infinite {
+ -webkit-animation-iteration-count: infinite;
+ animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+ -webkit-animation-duration: 2s;
+ animation-duration: 2s;
+}
+
+@-webkit-keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+}
+
+@-webkit-keyframes fadeInRightBig {
+ 0% {
+   opacity: 0;
+   -webkit-transform: translate3d(2000px, 0, 0);
+   transform: translate3d(2000px, 0, 0);
+ }
+
+ 100% {
+   opacity: 1;
+   -webkit-transform: none;
+   transform: none;
+ }
+}
+@keyframes fadeInRightBig {
+ 0% {
+   opacity: 0;
+   -webkit-transform: translate3d(2000px, 0, 0);
+   transform: translate3d(2000px, 0, 0);
+ }
+
+ 100% {
+   opacity: 1;
+   -webkit-transform: none;
+   transform: none;
+ }
+}
+.fadeInRightBig {
+ -webkit-animation-name: fadeInRightBig;
+ animation-name: fadeInRightBig;
+}
+
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+/**
+ *  CSS Shapes
+ *
+ */
+.circle {
+  &.blue {
+    width: 42px;
+    height: 42px;
+    background-color: @blue;
+    .border-radius( 21px );
+  }
+  &.yellow {
+    width: 23px;
+    height: 23px;
+    background-color: @yellow;
+    .border-radius( 15px );
+  }
+  &.green {
+    width: 49px;
+    height: 49px;
+    background-color: @green-cc;
+    .border-radius( 25px );
+  }
+  &.red {
+    width: 27px;
+    height: 27px;
+    background-color: @red;
+    .border-radius( 14px );
+  }
+}
+
+/**
  * General, Typography & Resets
  *
  */
-
 html {
   box-sizing: border-box;
 }
