@@ -251,13 +251,17 @@ p.small {
   font-size: 16px;
 }
 
+strong {
+  font-size: 21px;
+}
+
 a,
 a:hover,
 a:focus,
 a:active,
 a.active {
   outline: 0;
-  color: #18bc9c;
+  color: @green-cc;
 }
 
 h1,
@@ -271,16 +275,43 @@ h6 {
   font-weight: 700;
 }
 
+.subtitle {
+  font-size: 24px;
+  color: @gray-dark;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.blurb {
+  color: @gray-light;
+}
+
 .btn-primary {
   display: block;
   margin: 20px auto;
   padding: 10px 30px;
   width: 200px;
   color: #FFF;
+  border-color: #FFF;
   .border-radius( 5px );
+}
+.btn-primary:hover {
+  border-color: #FFF;
 }
 .btn-primary.btn-green {
   background: rgb(129, 194, 104);
+}
+.btn-primary.btn-green:hover {
+  background: darken( rgb(129, 194, 104), 10%);
+}
+.btn-group {
+  width: 100%;
+}
+.btn-left {
+  width: 50%;
+}
+.btn-right {
+  width: 50%;
 }
 
 hr {
