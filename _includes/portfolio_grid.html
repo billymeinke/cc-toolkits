@@ -16,8 +16,8 @@
                         </div>
                       </div>
                       <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                      <h3>{{ post.project-name }}</h3>
-                      <p>{{ post.description | truncatewords: 15 }}</p>
+                      <h3 class="subtitle">{{ post.project-name }}</h3>
+                      <p class="blurb">{{ post.description | truncatewords: 15 }}</p>
                     </a>
                   </div>
               {% endfor %}
