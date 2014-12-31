@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
  {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -10,29 +10,59 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-sm-8 col-sm-offset-2">
                         <div class="modal-body">
-                            <!-- <h2>{{ post.title }}</h2> -->
-                            <h2>{{ post.project-name }}</h2> 
-                            <hr>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <h3>{{ post.institution }}</h3>
+
+                            <!-- Carousel -->
+                            <div class="carousel slide" id="portfolioCarousel-{{ post.modal-id }}" data-interval="false">
+
+                              <ol class="carousel-indicators">
+                                <li data-target="#portfolioCarousel-{{ post.modal-id }}" data-slide-to="0" class="active"></li>
+                                <li data-target="#portfolioCarousel-{{ post.modal-id }}" data-slide-to="1"></li>
+                              </ol>
+
+                              <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                  <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                                </div>
+                                <div class="item">
+                                  <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                                </div>
+                              </div><!-- .carousel-inner -->
+
+                            </div>
+
+                            <!-- Title/Subtitle-->
+                            <h2>{{ post.project-name }}</h2>
+                            <h3>By {{ post.institution }}</h3>
+
+                            <!-- Carousel controls -->
+                            <div class="btn-group">
+                              <a class="btn btn-primary btn-green btn-left" href="#portfolioCarousel-{{ post.modal-id }}" role="button" data-slide-to="0">
+                                <span><i class="fa fa-play-circle"></i> Play Video</span>
+                              </a>
+                              <a class="btn btn-primary btn-green btn-right" href="#portfolioCarousel-{{ post.modal-id }}">
+                                <span><i class="fa fa-external-link"></i> View Project</span>
+                              </a>
+                            </div>
+
+                            <h4>Synopsis</h4>
                             <p>{{ post.description }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                    </strong>
-                                </li>
+                            <a href="#">Read more</a>
+
+                            <h4>Industry Affiliations</h4>
+                            <ul class="list-inline item-details categories">
+                                {% for category in post.categories %}
+                                  <li class="{{ category | join: ' ' }}">{{ category }}</li>
+                                {% endfor %}
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                            <hr>
+
+                            <ul class="project-pager">
+                              <li class="prev-project"><a href="#"><i class="fa fa-chevron-left"></i>Prev Project</a></li>
+                              <li class="next-project"><a href="#"><i class="fa fa-chevron-right"></i>Next Project</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
