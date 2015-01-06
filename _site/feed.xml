@@ -5,8 +5,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>/cc-toolkits/</link>
     <atom:link href="/cc-toolkits/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 05 Jan 2015 11:10:44 -1000</pubDate>
-    <lastBuildDate>Mon, 05 Jan 2015 11:10:44 -1000</lastBuildDate>
+    <pubDate>Mon, 05 Jan 2015 16:28:30 -1000</pubDate>
+    <lastBuildDate>Mon, 05 Jan 2015 16:28:30 -1000</lastBuildDate>
     <generator>Jekyll v2.0.3</generator>
     
   </channel>
